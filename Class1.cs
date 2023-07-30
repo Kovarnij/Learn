@@ -14,7 +14,5 @@ namespace Learn
         double d = 65.46;
         char e = 'a';
         string f = "World";
-
-
     }
 }
