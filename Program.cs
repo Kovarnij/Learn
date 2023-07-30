@@ -6,8 +6,6 @@ namespace Learn
     {
         static void Main(string[] args)
         {
-            Class7 class7 = new Class7();
-            class7.Less10();
             string name;
             int age;
             int programCount;
