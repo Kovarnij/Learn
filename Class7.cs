@@ -10,7 +10,7 @@ namespace Learn
     {
         public void Less10()
         {
-            int thimble = 3;
+            bool[] thimble = { false, false, true};
 
             Console.WriteLine("Игра в наперстки");
             Console.WriteLine();
@@ -19,11 +19,12 @@ namespace Learn
             Console.Write("Введите ваше число от 1 до 3: ");
             int input = Convert.ToInt32(Console.ReadLine());
 
-            if (input == thimble)
+            input--;
+
+            if (input < thimble.Length && thimble[input])
             {
                 Console.WriteLine("Да! Вы нашли шарик!");
             }
-
             else
             {
                 Console.WriteLine("Нет! Вы не угадали!");

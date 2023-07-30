@@ -6,7 +6,6 @@ namespace Learn
     {
         static void Main(string[] args)
         {
-            Console.ReadKey();
         }
     }
 }
