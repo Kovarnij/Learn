@@ -6,6 +6,8 @@ namespace Learn
     {
         static void Main(string[] args)
         {
+            Class11 class11 = new Class11();
+            class11.Less11();
         }
     }
 }
