@@ -6,6 +6,8 @@ namespace Learn
     {
         static void Main(string[] args)
         {
+            Class2 class2 = new Class2();
+            class2.Less2();
             string name;
             int age;
             int programCount;

@@ -8,10 +8,10 @@ namespace Learn
 {
     public class Class2
     {
-        static void Less2()
+        public void Less2()
         {
             Console.WriteLine();
-            Console.WriteLine("4 плюс 6 = " + 4 + 6 );
+            Console.WriteLine("4 плюс 6 = " + (4 + 6) );
             Console.WriteLine("4 уменьшенное на 1 = " + (4-1));
             Console.WriteLine("3 умножить на 7 = " + 3 * 7);
             Console.WriteLine("16 разделить на 8 = " + 16 / 8);
